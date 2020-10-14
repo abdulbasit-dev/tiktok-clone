@@ -3,7 +3,10 @@ html {
 }
 
 .app {
+  height: 100vh;
   background: black;
+  display: grid;
+  place-items: center;
 }
 
 .app__videos {
@@ -14,7 +17,6 @@ html {
   /* if make screen begger it still be 500px 
   becouse of max-width */
   max-width: 500px;
-  margin: 0 auto;
   scroll-snap-type: y mandatory;
 }
 
